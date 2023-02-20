@@ -1,0 +1,20 @@
+I got 150/300 
+   public class ProblemTwo {
+public static void main(String[] args) {
+int LITTLE = 6, MEDIUM = 10, BIG = 128;
+int i,j, n = 9,temp;
+int[] num= new int[MEDIUM];
+num[0]=9; num[1]=3; num[2]=4; num[3]=8; num[4]=2; num[5]=1;
+num[6]=5; num[7]=6; num[8]=7;
+num[1] = 1;
+i = 5;
+while (i < MEDIUM) {
+num[i] = 2*num[i - 1];
+i++;
+}
+for (j=0;j<MEDIUM;j++)
+System.out.print(num[j]+", ");
+}
+}
+
+I’m having trouble with double arrays and remembering some of the errors.
